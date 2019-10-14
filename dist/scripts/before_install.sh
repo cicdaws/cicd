@@ -13,6 +13,6 @@ sudo apt-get install nodejs -y
 # https://www.npmjs.com/package/forever
 sudo npm install forever -g
 sudo npm install --save express
-mv dist /home/ubuntu/dist
+
 # Clean working folder
 # sudo find /home/ubuntu/test -type f -delete
