@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd /home/ubuntu/nodejs/CiCdPipeline/
-node app.js
+#cd /home/ubuntu/nodejs/CiCdPipeline/
+node /home/ubuntu/nodejs/CiCdPipeline/app.js
