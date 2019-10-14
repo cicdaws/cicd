@@ -5,10 +5,10 @@ const path = require('path');
 //const api = require('./server/routes/api');
 const app = express();
 
-app.use(express.static(path.join(__dirname,'CiCdPipeline')));
+app.use(express.static(path.join(__dirname,'/home/ubuntu/nodejs/CiCdPipeline')));
 
 app.get('/*',(req, res) => {
-res.sendFile(path.join(__dirname,'CiCdPipeline/index.html'));
+res.sendFile(path.join(__dirname,'/home/ubuntu/nodejs/CiCdPipeline/index.html'));
 });
 
 const port = process.env.PORT || '3003'; 
