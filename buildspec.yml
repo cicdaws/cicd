@@ -21,8 +21,17 @@ phases:
      commands:
       - echo Build completed on `date`
        -aws s3 cp ${BUILD_FOLDER} s3://${S3_BUCKET} --recursive
+
 artifacts:    
   files:
     - '**/*'
   base-directory: 'dist*'
+
+artifacts: 
+  base-directory: dist*
+  files: 
+    - "*/*"
+    - 'appspec.yml'
+    - 'scripts'
+    - 'app.js'
 
