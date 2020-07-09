@@ -46,7 +46,7 @@ artifacts:
     - '**/*'
   base-directory: 'dist*'
 
-artifacts: 
+artifacts:  
   base-directory: dist*
   files: 
     - "*/*"
