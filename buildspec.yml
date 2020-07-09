@@ -4,7 +4,7 @@ env:
     LOGIN: prod/cicdaws_v1:sonartoken
     HOST: prod/cicdaws_v1:HOST
     Organization: prod/cicdaws_v1:Organization
-    Project: prod/cicdaws_v1:Project  
+    Project: prod/cicdaws_v1:project  
   variables:
     CACHE_CONTROL: "86400"
     BUILD_ENV: "prod"
