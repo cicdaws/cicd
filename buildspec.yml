@@ -1,15 +1,15 @@
 version: 0.2
 env:
-    variables:
-        CACHE_CONTROL: "86400"
-        BUILD_ENV: "prod"
-        S3_BUCKET : "cicdangular"
-        BUILD_FOLDER : "dist"
-    secrets-manager:
+  secrets-manager:
     LOGIN: prod/sonar:sonartoken
     HOST: prod/sonar:HOST
     Organization: prod/sonar:Organization
-    Project: prod/sonar:Project    
+    Project: prod/sonar:Project  
+  variables:
+    CACHE_CONTROL: "86400"
+    BUILD_ENV: "prod"
+    S3_BUCKET : "cicdangular"
+    BUILD_FOLDER : "dist"  
 phases:
     install:
         runtime-versions:
