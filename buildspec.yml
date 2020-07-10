@@ -10,7 +10,7 @@ env:
     BUILD_ENV: "prod"
     S3_BUCKET : "cicdangular"
     BUILD_FOLDER : "dist"  
-phases:
+phases: 
     install:
         runtime-versions:
             nodejs: 10
