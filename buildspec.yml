@@ -1,6 +1,6 @@
 version: 0.2
 env:
-  secrets-manager:
+  secrets-manager: 
     LOGIN: sonar_cicdaws:sonartoken
     HOST: sonar_cicdaws:HOST
     Organization: sonar_cicdaws:Organization
